@@ -256,3 +256,13 @@ main .section.highlight {
   margin: 0;
   padding: 40px 0;
 }
+
+main .yellow{
+  background-color:lightgray ;
+  color:white;
+}
+
+main .cyan{
+  background-color:cyan ;
+  color:red;
+}
