@@ -251,18 +251,20 @@ main > .section:first-of-type {
 /* section metadata */
 main .section.light,
 main .section.highlight {
-  background-color: cyan;
-  color:magenta;
+  background-color: lightgrey;
+  color:black;
   margin: 0;
   padding: 40px 0;
 }
 
-main .yellow{
-  background-color:lightgray ;
-  color:white;
+main .section.code-block {
+  background-color: lightcyan;
+  border-radius: 20px;
+  padding:20px;
+  margin:20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: small;
 }
 
-main .cyan{
-  background-color:cyan ;
-  color:red;
-}
+
+
